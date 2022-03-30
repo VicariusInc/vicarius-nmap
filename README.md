@@ -1,4 +1,4 @@
-# vicarius-nmap-vulnerabilities-scan
+# vicarius-nmap
 nmap scripts (nse files) to identify vulnerabilities
 
 GUIDE
