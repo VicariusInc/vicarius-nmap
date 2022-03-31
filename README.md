@@ -15,7 +15,7 @@ Please copy the vicarius-vulnerability-scan.nse file into the nmap scripts folde
 
    <Nmap Folder>\scripts\vicarius-vulnerability-scan.nse
    
-And the cve.csv file into a sub-folder named vicarius-vulnerability-scan:
+Unzip and copy the cve.csv file into a sub-folder named vicarius-vulnerability-scan:
    
    <Nmap Folder>\scripts\vicarius-vulnerability-scan\cve.csv
 
