@@ -1,36 +1,21 @@
 # vicarius-nmap
 
-Vicarius Vulnerability scan is a nmap NSE to detect vulnerabilities. 
-It is based on vulscan - https://github.com/scipag/vulscan
+Get instant visibility into your organization’s network with a comprehensive scan that provides detailed information about the devices on the network, vulnerabilities, and more at the time of the scan. 
 
+Vicarius’ vulnerability scan is an NSE (Nmap scripting engine) used to detect vulnerabilities. It is based on vulscan - https://github.com/scipag/vulscan. 
 
-The nmap option -sV enables version detection per service which is used to
-determine potential flaws according to the identified product. 
-The data is looked up in an offline CVE DB that is up-to-date with MITRE-CVE DB (https://cve.mitre.org)
-as to March 2022.
+The Nmap option -sV enables version detection per service, which is used to determine flaws according to the identified product. The data is looked up in an offline CVE database that is up to date with MITRE-CVE (https://cve.mitre.org) as of March 2022.
 
-INSTALLATION
+Installation:
+Please copy the vicarius-vulnerability-scan.nse file into the Nmap scripts folder:
+\scripts\vicarius-vulnerability-scan.nse
 
-Please copy the vicarius-vulnerability-scan.nse file into the nmap scripts folder:
-
-   <Nmap Folder>\scripts\vicarius-vulnerability-scan.nse
-   
 Unzip and copy the cve.csv file into a sub-folder named vicarius-vulnerability-scan:
-   
-   <Nmap Folder>\scripts\vicarius-vulnerability-scan\cve.csv
+\scripts\vicarius-vulnerability-scan\cve.csv
 
-USAGE
-
-You have to run the following minimal command to initiate a simple
-vulnerability scan:
-
-   nmap -sV --script=vicarius-vulnerability-scan.nse www.example.com
-
+Usage:
+Run the following minimal command to initiate a simple vulnerability scan:
+nmap -sV --script=vicarius-vulnerability-scan.nse www.example.com
 
 DISCLAIMER
-
-Keep in mind that this kind of derivative vulnerability scanning
-heavily relies on the confidence of the version detection of nmap, the
-amount of documented vulnerebilities and the accuracy of pattern
-matching. The existence of potential flaws is not verified with
-additional scanning nor exploiting techniques.
+Keep in mind that this kind of derivative vulnerability scanning heavily relies on the confidence of the version detection of Nmap, the amount of documented vulnerabilities, and the accuracy of pattern matching. The existence of potential flaws is not verified with additional scanning or exploiting techniques.
