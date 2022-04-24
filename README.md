@@ -21,4 +21,3 @@ DISCLAIMER
 Keep in mind that this kind of derivative vulnerability scanning heavily relies on the confidence of the version detection of Nmap, the amount of documented vulnerabilities, and the accuracy of pattern matching. The existence of potential flaws is not verified with additional scanning or exploiting techniques.
 
 ![topia_mock_scan (1)](https://user-images.githubusercontent.com/46711777/164996050-3c871d7d-8c74-4211-b3fd-6e239346dcda.png)
-<img width="425" alt="image (1)" src="https://user-images.githubusercontent.com/46711777/164996067-556c5626-254f-45ac-be98-3a2323c681d3.png">
