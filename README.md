@@ -20,4 +20,6 @@ nmap -sV --script=vicarius-vulnerability-scan.nse www.example.com
 DISCLAIMER
 Keep in mind that this kind of derivative vulnerability scanning heavily relies on the confidence of the version detection of Nmap, the amount of documented vulnerabilities, and the accuracy of pattern matching. The existence of potential flaws is not verified with additional scanning or exploiting techniques.
 
+# For an easy process of analyzing the NMAP scan results and managing your network risk - try uploading the scan output into Topia!
+
 ![topia_mock_scan (1)](https://user-images.githubusercontent.com/46711777/164996050-3c871d7d-8c74-4211-b3fd-6e239346dcda.png)
