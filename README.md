@@ -4,7 +4,7 @@ Get instant visibility into your organization’s network with a comprehensive s
 
 Vicarius’ vulnerability scan is an NSE (Nmap scripting engine) used to detect vulnerabilities. It is based on vulscan - https://github.com/scipag/vulscan. 
 
-The Nmap option -sV enables version detection per service, which is used to determine flaws according to the identified product. The data is looked up in an offline CVE database that is up to date with MITRE-CVE (https://cve.mitre.org) as of March 2022.
+The Nmap option -sV enables version detection per service, which is used to determine flaws according to the identified product. The data is looked up in an offline CVE database that is up to date with MITRE-CVE (https://cve.mitre.org) as of November 2022.
 
 Installation:
 Please copy the vicarius-vulnerability-scan.nse file into the Nmap scripts folder:
